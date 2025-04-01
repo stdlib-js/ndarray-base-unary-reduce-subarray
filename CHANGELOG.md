@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-30)
+## Unreleased (2025-04-01)
 
 <section class="features">
 
 ### Features
 
+-   [`998b3ba`](https://github.com/stdlib-js/stdlib/commit/998b3ba4e628e6d8564c6b33fe41925da2046b41) - add missing kernels to `ndarray/base/unary-reduce-subarray` [(#6421)](https://github.com/stdlib-js/stdlib/pull/6421)
 -   [`935f698`](https://github.com/stdlib-js/stdlib/commit/935f698bd565928d3fc862dfdff14ab0e56aa478) - add initial implementation for `ndarray/base/unary-reduce-subarray`
 
 </section>
@@ -34,6 +35,7 @@
 
 <details>
 
+-   [`998b3ba`](https://github.com/stdlib-js/stdlib/commit/998b3ba4e628e6d8564c6b33fe41925da2046b41) - **feat:** add missing kernels to `ndarray/base/unary-reduce-subarray` [(#6421)](https://github.com/stdlib-js/stdlib/pull/6421) _(by Muhammad Haris)_
 -   [`5768926`](https://github.com/stdlib-js/stdlib/commit/5768926be4fb253947f5d44bcf6b9d8bb5c75274) - **fix:** update error message _(by Athan Reines)_
 -   [`bdf4246`](https://github.com/stdlib-js/stdlib/commit/bdf4246934e957faced935c2cda4b1f30b7ac9e9) - **refactor:** update error messages _(by Athan Reines)_
 -   [`9934f2c`](https://github.com/stdlib-js/stdlib/commit/9934f2ceb44cbcdc02c27d9a1a5fc231e24b10ff) - **refactor:** only branch when `y` is backed by an accessor array _(by Athan Reines)_
@@ -56,9 +58,10 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Muhammad Haris
 
 </section>
 
