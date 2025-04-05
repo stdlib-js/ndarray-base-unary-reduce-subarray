@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-01)
+## Unreleased (2025-04-05)
 
 <section class="features">
 
@@ -21,6 +21,7 @@
 
 ### Bug Fixes
 
+-   [`f0d205d`](https://github.com/stdlib-js/stdlib/commit/f0d205d7073055c7a69f1ba7ccee95671ab762ba) - address indexing error
 -   [`5768926`](https://github.com/stdlib-js/stdlib/commit/5768926be4fb253947f5d44bcf6b9d8bb5c75274) - update error message
 -   [`7378f4d`](https://github.com/stdlib-js/stdlib/commit/7378f4db96fc059523a6f181388aa8f4fa202675) - ensure support when providing no dimensions to reduce
 -   [`91778b7`](https://github.com/stdlib-js/stdlib/commit/91778b7ca6ae2c6ee0c6017687426c3952d90098) - handle scenario where a core dimension is zero
@@ -35,6 +36,7 @@
 
 <details>
 
+-   [`f0d205d`](https://github.com/stdlib-js/stdlib/commit/f0d205d7073055c7a69f1ba7ccee95671ab762ba) - **fix:** address indexing error _(by Athan Reines)_
 -   [`998b3ba`](https://github.com/stdlib-js/stdlib/commit/998b3ba4e628e6d8564c6b33fe41925da2046b41) - **feat:** add missing kernels to `ndarray/base/unary-reduce-subarray` [(#6421)](https://github.com/stdlib-js/stdlib/pull/6421) _(by Muhammad Haris)_
 -   [`5768926`](https://github.com/stdlib-js/stdlib/commit/5768926be4fb253947f5d44bcf6b9d8bb5c75274) - **fix:** update error message _(by Athan Reines)_
 -   [`bdf4246`](https://github.com/stdlib-js/stdlib/commit/bdf4246934e957faced935c2cda4b1f30b7ac9e9) - **refactor:** update error messages _(by Athan Reines)_

@@ -3,7 +3,7 @@ function Or(i,r){var e,o;for(o=2;o<i.length;o++)e=i[o],r.push({dtype:e.dtype,dat
 });var C=V(function(Fe,B){
 function wr(i,r){var e;for(e=0;e<i.length;e++)i[e]+=r[e];return i}B.exports=wr
 });var R=V(function(Le,F){
-function Nr(i,r){var e,o;for(e=0,o=0;e<r.length;e++)e!==1&&(i[o].offset=r[o],o+=1);return i}F.exports=Nr
+function Nr(i,r){var e,o;for(e=0,o=0;e<r.length;e++)e!==1&&(i[o].offset=r[e],o+=1);return i}F.exports=Nr
 });var z=V(function(Xe,L){
 function Sr(i){var r=[],e;for(e=0;e<i.length;e++)r.push(i[e].offset);return r}L.exports=Sr
 });var H=V(function(Ge,G){
