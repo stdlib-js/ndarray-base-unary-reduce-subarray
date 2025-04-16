@@ -38,6 +38,10 @@
 
 <details>
 
+-   [`9d6cd84`](https://github.com/stdlib-js/stdlib/commit/9d6cd84404f09e09f22721d4e3bd1d083b8f83b1) - **chore:** add TODO _(by Athan Reines)_
+-   [`999b4d7`](https://github.com/stdlib-js/stdlib/commit/999b4d7f258e8c9c20ef474b1839f62a9481c652) - **docs:** update note _(by Athan Reines)_
+-   [`a032199`](https://github.com/stdlib-js/stdlib/commit/a03219903da3dce11a6a290890078a969841e582) - **docs:** update description _(by Athan Reines)_
+-   [`29a39e8`](https://github.com/stdlib-js/stdlib/commit/29a39e8cb6562c29d96a91b3969ef35ae85b661a) - **chore:** update copyright year _(by Athan Reines)_
 -   [`cdc66ce`](https://github.com/stdlib-js/stdlib/commit/cdc66ce1876b95dd8c23aa2f869aebe9b842e86e) - **fix:** remove unused parameters _(by Athan Reines)_
 -   [`0ede0da`](https://github.com/stdlib-js/stdlib/commit/0ede0dafa46ddea7dfce7be63250ca9ae0c1c546) - **fix:** add missing imports in `ndarray/base/unary-reduce-subarray` [(#6642)](https://github.com/stdlib-js/stdlib/pull/6642) _(by Muhammad Haris)_
 -   [`f0d205d`](https://github.com/stdlib-js/stdlib/commit/f0d205d7073055c7a69f1ba7ccee95671ab762ba) - **fix:** address indexing error _(by Athan Reines)_
