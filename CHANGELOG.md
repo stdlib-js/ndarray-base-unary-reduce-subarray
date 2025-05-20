@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-27)
+## Unreleased (2025-05-20)
 
 <section class="features">
 
@@ -21,6 +21,9 @@
 
 ### Bug Fixes
 
+-   [`fab9873`](https://github.com/stdlib-js/stdlib/commit/fab9873a907807195f2f6673b5b97f09e383bd69) - address index bug
+-   [`9bc10d4`](https://github.com/stdlib-js/stdlib/commit/9bc10d4dc2b9afe6b55ca2b6e17c165e9dd2a88d) - use resolved order when computing loop variables
+-   [`8722299`](https://github.com/stdlib-js/stdlib/commit/8722299df603836eaf1aba2404e833f77db4ed0b) - use computed order
 -   [`f3e3561`](https://github.com/stdlib-js/stdlib/commit/f3e3561a46cca1fbb13c0a1b5eb5f5475ef9b032) - address off-by-one error
 -   [`cdc66ce`](https://github.com/stdlib-js/stdlib/commit/cdc66ce1876b95dd8c23aa2f869aebe9b842e86e) - remove unused parameters
 -   [`0ede0da`](https://github.com/stdlib-js/stdlib/commit/0ede0dafa46ddea7dfce7be63250ca9ae0c1c546) - add missing imports in `ndarray/base/unary-reduce-subarray` [(#6642)](https://github.com/stdlib-js/stdlib/pull/6642)
@@ -39,6 +42,11 @@
 
 <details>
 
+-   [`fab9873`](https://github.com/stdlib-js/stdlib/commit/fab9873a907807195f2f6673b5b97f09e383bd69) - **fix:** address index bug _(by Athan Reines)_
+-   [`c8ed1f9`](https://github.com/stdlib-js/stdlib/commit/c8ed1f99772d36d99cf0d836a506c3c83f58c02c) - **docs:** fix description _(by Athan Reines)_
+-   [`30e17f4`](https://github.com/stdlib-js/stdlib/commit/30e17f4a8ea63e7cad77946fc946a7c587781bb9) - **docs:** update descriptions _(by Athan Reines)_
+-   [`9bc10d4`](https://github.com/stdlib-js/stdlib/commit/9bc10d4dc2b9afe6b55ca2b6e17c165e9dd2a88d) - **fix:** use resolved order when computing loop variables _(by Athan Reines)_
+-   [`8722299`](https://github.com/stdlib-js/stdlib/commit/8722299df603836eaf1aba2404e833f77db4ed0b) - **fix:** use computed order _(by Athan Reines)_
 -   [`f3e3561`](https://github.com/stdlib-js/stdlib/commit/f3e3561a46cca1fbb13c0a1b5eb5f5475ef9b032) - **fix:** address off-by-one error _(by Athan Reines)_
 -   [`9d6cd84`](https://github.com/stdlib-js/stdlib/commit/9d6cd84404f09e09f22721d4e3bd1d083b8f83b1) - **chore:** add TODO _(by Athan Reines)_
 -   [`999b4d7`](https://github.com/stdlib-js/stdlib/commit/999b4d7f258e8c9c20ef474b1839f62a9481c652) - **docs:** update note _(by Athan Reines)_
