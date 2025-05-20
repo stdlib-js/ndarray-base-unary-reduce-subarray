@@ -21,6 +21,7 @@
 
 ### Bug Fixes
 
+-   [`a300862`](https://github.com/stdlib-js/stdlib/commit/a300862d4f05d4d8bd85f1e235db93ad5d35a767) - address increment bugs
 -   [`fab9873`](https://github.com/stdlib-js/stdlib/commit/fab9873a907807195f2f6673b5b97f09e383bd69) - address index bug
 -   [`9bc10d4`](https://github.com/stdlib-js/stdlib/commit/9bc10d4dc2b9afe6b55ca2b6e17c165e9dd2a88d) - use resolved order when computing loop variables
 -   [`8722299`](https://github.com/stdlib-js/stdlib/commit/8722299df603836eaf1aba2404e833f77db4ed0b) - use computed order
@@ -42,6 +43,7 @@
 
 <details>
 
+-   [`a300862`](https://github.com/stdlib-js/stdlib/commit/a300862d4f05d4d8bd85f1e235db93ad5d35a767) - **fix:** address increment bugs _(by Athan Reines)_
 -   [`fab9873`](https://github.com/stdlib-js/stdlib/commit/fab9873a907807195f2f6673b5b97f09e383bd69) - **fix:** address index bug _(by Athan Reines)_
 -   [`c8ed1f9`](https://github.com/stdlib-js/stdlib/commit/c8ed1f99772d36d99cf0d836a506c3c83f58c02c) - **docs:** fix description _(by Athan Reines)_
 -   [`30e17f4`](https://github.com/stdlib-js/stdlib/commit/30e17f4a8ea63e7cad77946fc946a7c587781bb9) - **docs:** update descriptions _(by Athan Reines)_
