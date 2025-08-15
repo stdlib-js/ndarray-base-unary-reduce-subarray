@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-08-11)
+## Unreleased (2025-08-15)
 
 <section class="features">
 
@@ -21,6 +21,7 @@
 
 ### Bug Fixes
 
+-   [`5efa5d7`](https://github.com/stdlib-js/stdlib/commit/5efa5d79b4e9348e431e35cbd2657982a78455cc) - address assignment bug
 -   [`a300862`](https://github.com/stdlib-js/stdlib/commit/a300862d4f05d4d8bd85f1e235db93ad5d35a767) - address increment bugs
 -   [`fab9873`](https://github.com/stdlib-js/stdlib/commit/fab9873a907807195f2f6673b5b97f09e383bd69) - address index bug
 -   [`9bc10d4`](https://github.com/stdlib-js/stdlib/commit/9bc10d4dc2b9afe6b55ca2b6e17c165e9dd2a88d) - use resolved order when computing loop variables
@@ -43,6 +44,7 @@
 
 <details>
 
+-   [`5efa5d7`](https://github.com/stdlib-js/stdlib/commit/5efa5d79b4e9348e431e35cbd2657982a78455cc) - **fix:** address assignment bug _(by Athan Reines)_
 -   [`19385a6`](https://github.com/stdlib-js/stdlib/commit/19385a661da9d3460d7328e456b5b59347c908f7) - **docs:** fix example _(by Athan Reines)_
 -   [`a300862`](https://github.com/stdlib-js/stdlib/commit/a300862d4f05d4d8bd85f1e235db93ad5d35a767) - **fix:** address increment bugs _(by Athan Reines)_
 -   [`fab9873`](https://github.com/stdlib-js/stdlib/commit/fab9873a907807195f2f6673b5b97f09e383bd69) - **fix:** address index bug _(by Athan Reines)_
