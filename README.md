@@ -48,13 +48,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import unaryReduceSubarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-reduce-subarray@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ndarray-base-unary-reduce-subarray/tags). For example,
+
+```javascript
 import unaryReduceSubarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-reduce-subarray@v0.1.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-reduce-subarray@v0.1.0-esm/index.mjs';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-reduce-subarray@esm/index.mjs';
 ```
 
 #### unaryReduceSubarray( fcn, arrays, dims\[, options] )
@@ -173,7 +178,7 @@ import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-
 import filled from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-filled@esm/index.mjs';
 import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-to-array@esm/index.mjs';
 import every from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-every@esm/index.mjs';
-import unaryReduceSubarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-reduce-subarray@v0.1.0-esm/index.mjs';
+import unaryReduceSubarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-reduce-subarray@esm/index.mjs';
 
 var N = 10;
 var x = {
