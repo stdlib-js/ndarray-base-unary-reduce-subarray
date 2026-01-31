@@ -50,7 +50,7 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
-unaryReduceSubarray = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-reduce-subarray@umd/browser.js' )
+unaryReduceSubarray = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-reduce-subarray@v0.1.0-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -62,7 +62,7 @@ var unaryReduceSubarray = require( 'path/to/vendor/umd/ndarray-base-unary-reduce
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-reduce-subarray@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-reduce-subarray@v0.1.0-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -189,7 +189,7 @@ Each provided ndarray should be an object with the following properties:
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-base-filled@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-to-array@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-every@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-reduce-subarray@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-reduce-subarray@v0.1.0-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
