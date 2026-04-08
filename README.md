@@ -41,38 +41,32 @@ limitations under the License.
 
 <!-- /.intro -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/ndarray-base-unary-reduce-subarray
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-unaryReduceSubarray = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-reduce-subarray@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var unaryReduceSubarray = require( 'path/to/vendor/umd/ndarray-base-unary-reduce-subarray/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-reduce-subarray@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.unaryReduceSubarray;
-})();
-</script>
+var unaryReduceSubarray = require( '@stdlib/ndarray-base-unary-reduce-subarray' );
 ```
 
 #### unaryReduceSubarray( fcn, arrays, dims\[, options] )
@@ -156,7 +150,11 @@ Each provided ndarray should be an object with the following properties:
 
 ## Notes
 
--   The output ndarray and any additional ndarray arguments are expected to have the same dimensions as the non-reduced dimensions of the input ndarray. When calling the reduction function, any additional ndarray arguments are provided as zero-dimensional ndarray-like objects.
+-   The output ndarray is expected to have the same dimensions as the non-reduced dimensions of the input ndarray.
+
+-   Any additional ndarray arguments are expected to have the same leading dimensions as the non-reduced dimensions of the input ndarray.
+
+-   When calling the reduction function, any additional ndarray arguments are provided as k-dimensional subarrays, where `k = M - N` with `M` being the number of dimensions in an ndarray argument and `N` being the number of non-reduced dimensions in the input ndarray. For example, if an input ndarray has three dimensions, the number of reduced dimensions is two, and an additional ndarray argument has one dimension, thus matching the number of non-reduced dimensions in the input ndarray, the reduction function is provided a zero-dimensional subarray as an additional ndarray argument. In the same scenario but where an additional ndarray argument has two dimensions, thus exceeding the number of non-reduced dimensions in the input ndarray, the reduction function is provided a one-dimensional subarray as an additional ndarray argument.
 
 -   The reduction function is expected to have the following signature:
 
@@ -166,7 +164,7 @@ Each provided ndarray should be an object with the following properties:
 
     where
 
-    -   **arrays**: array containing a subarray of the input ndarray and any additional ndarray arguments as zero-dimensional ndarrays.
+    -   **arrays**: array containing a subarray of the input ndarray and any additional ndarray arguments as subarrays.
     -   **options**: function options (_optional_).
 
 -   For very high-dimensional ndarrays which are non-contiguous, one should consider copying the underlying data to contiguous memory before performing a reduction in order to achieve better performance.
@@ -181,17 +179,12 @@ Each provided ndarray should be an object with the following properties:
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-base-filled@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-to-array@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-every@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-reduce-subarray@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var discreteUniform = require( '@stdlib/random-array-discrete-uniform' );
+var filled = require( '@stdlib/array-base-filled' );
+var ndarray2array = require( '@stdlib/ndarray-base-to-array' );
+var every = require( '@stdlib/ndarray-base-every' );
+var unaryReduceSubarray = require( '@stdlib/ndarray-base-unary-reduce-subarray' );
 
 var N = 10;
 var x = {
@@ -217,11 +210,6 @@ unaryReduceSubarray( every, [ x, y ], [ 1 ] );
 
 console.log( ndarray2array( x.data, x.shape, x.strides, x.offset, x.order ) );
 console.log( ndarray2array( y.data, y.shape, y.strides, y.offset, y.order ) );
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -252,11 +240,6 @@ For more information on the project, filing bug reports and feature requests, an
 [![Chat][chat-image]][chat-url]
 
 ---
-
-## License
-
-See [LICENSE][stdlib-license].
-
 
 ## Copyright
 
@@ -303,8 +286,6 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [esm-url]: https://github.com/stdlib-js/ndarray-base-unary-reduce-subarray/tree/esm
 [esm-readme]: https://github.com/stdlib-js/ndarray-base-unary-reduce-subarray/blob/esm/README.md
 [branches-url]: https://github.com/stdlib-js/ndarray-base-unary-reduce-subarray/blob/main/branches.md
-
-[stdlib-license]: https://raw.githubusercontent.com/stdlib-js/ndarray-base-unary-reduce-subarray/main/LICENSE
 
 </section>
 
